@@ -1,0 +1,25 @@
+body {
+    background: url('walle.jpg');
+}
+#eaten {
+ padding: 10px;
+ border: 1px solid lightgray;
+ background: white;
+}
+#eaten p {
+    text-transform: uppercase;
+    color: lightsalmon;
+    font-size: 1.3rem;
+}
+#eaten input {
+    margin: 5px auto;
+    border: 1px solid lightgrey;
+    color: darkgreen;
+}
+#eaten input:nth-last-child(1) {
+    background: black;
+    color: white;
+}
+#enter_text {
+    margin-top: 2%;
+}
